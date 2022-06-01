@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Thu May 19 15:49:15 CST 2022","Thu May 19 15:49:15 CST 2022","25","testcase","test_Authorization","TestAuth","","","APP用户登录",""
+"passed","Thu May 19 15:49:15 CST 2022","Thu May 19 15:49:15 CST 2022","44","testcase","test_Authorization","TestAuth","","","APP用户登录",""
+"passed","Thu May 19 15:49:15 CST 2022","Thu May 19 15:49:15 CST 2022","30","testcase","test_Authorization","TestAuth","","","后台用户登录",""
+"passed","Thu May 19 15:49:15 CST 2022","Thu May 19 15:49:15 CST 2022","176","testcase","test_Authorization","TestAuth","","","后台用户登录",""

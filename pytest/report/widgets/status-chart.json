@@ -1,0 +1,41 @@
+[ {
+  "uid" : "2b90a3fc960e3862",
+  "name" : "APP用户登录",
+  "time" : {
+    "start" : 1652946555562,
+    "stop" : 1652946555587,
+    "duration" : 25
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c7183dd005c3f5d7",
+  "name" : "APP用户登录",
+  "time" : {
+    "start" : 1652946555516,
+    "stop" : 1652946555560,
+    "duration" : 44
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b700aa233eeceb04",
+  "name" : "后台用户登录",
+  "time" : {
+    "start" : 1652946555483,
+    "stop" : 1652946555513,
+    "duration" : 30
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "ed24b9833502cf4c",
+  "name" : "后台用户登录",
+  "time" : {
+    "start" : 1652946555304,
+    "stop" : 1652946555480,
+    "duration" : 176
+  },
+  "status" : "passed",
+  "severity" : "critical"
+} ]

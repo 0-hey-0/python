@@ -1,0 +1,125 @@
+{
+  "uid" : "c7183dd005c3f5d7",
+  "name" : "APP用户登录",
+  "fullName" : "testcase.test_Authorization.TestAuth#test_02_appAuth",
+  "historyId" : "58f9c4be04b845b4a0be351a43c8bd47",
+  "time" : {
+    "start" : 1652946555516,
+    "stop" : 1652946555560,
+    "duration" : 44
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "APP测试登录成功获取token",
+      "time" : {
+        "start" : 1652946555516,
+        "stop" : 1652946555560,
+        "duration" : 44
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "1.输入手机号：15196450437  2.输入密码：test1234  3.点击登录",
+        "time" : {
+          "start" : 1652946555517,
+          "stop" : 1652946555560,
+          "duration" : 43
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "f2563e082b6c26ef",
+          "name" : "请求接口",
+          "source" : "f2563e082b6c26ef.txt",
+          "type" : "text/plain",
+          "size" : 25
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "arg_app",
+        "value" : "{'name': '获取app统一token接口', 'request': {'method': 'post', 'url': '/api/basic/app/auth/login', 'data': {'mobile': 15196450437, 'password': 'test1234'}, 'header': {'Content-Type': 'application/json'}}, 'validate': 'None'}"
+      } ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "APP手机号密码正确"
+  }, {
+    "name" : "epic",
+    "value" : "成都公交项目"
+  }, {
+    "name" : "feature",
+    "value" : "登录模块"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_Authorization"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestAuth"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-OGKLD0C"
+  }, {
+    "name" : "thread",
+    "value" : "10588-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_Authorization"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg_app",
+    "value" : "{'name': '获取app统一token接口', 'request': {'method': 'post', 'url': '/api/basic/app/auth/login', 'data': {'mobile': 15196450437, 'password': 'test1234'}, 'header': {'Content-Type': 'application/json'}}, 'validate': 'None'}"
+  } ],
+  "links" : [ {
+    "name" : "APP接口地址：http://manager.c1.yunzhicloud.com",
+    "url" : "http://manager.c1.yunzhicloud.com",
+    "type" : "link"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c7183dd005c3f5d7.json",
+  "parameterValues" : [ "{'name': '获取app统一token接口', 'request': {'method': 'post', 'url': '/api/basic/app/auth/login', 'data': {'mobile': 15196450437, 'password': 'test1234'}, 'header': {'Content-Type': 'application/json'}}, 'validate': 'None'}" ]
+}

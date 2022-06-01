@@ -1,0 +1,85 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "testcase",
+    "children" : [ {
+      "name" : "test_Authorization",
+      "children" : [ {
+        "name" : "TestAuth",
+        "children" : [ {
+          "name" : "后台用户登录",
+          "uid" : "ed24b9833502cf4c",
+          "parentUid" : "563f29a611f10e7b42c0d55cb1a97e4a",
+          "status" : "passed",
+          "time" : {
+            "start" : 1652946555304,
+            "stop" : 1652946555480,
+            "duration" : 176
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ "{'name': '获取后台统一token接口', 'request': {'method': 'post', 'url': '/api/basic/manage/auth/login', 'data': {'account': 'heyu123', 'password': 'test1234', 'checkIp': False}, 'header': {'Content-Type': 'application/json'}}, 'extract': {'host': None}, 'validate': 'None'}" ]
+        }, {
+          "name" : "后台用户登录",
+          "uid" : "b700aa233eeceb04",
+          "parentUid" : "563f29a611f10e7b42c0d55cb1a97e4a",
+          "status" : "passed",
+          "time" : {
+            "start" : 1652946555483,
+            "stop" : 1652946555513,
+            "duration" : 30
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ "{'name': '登录密码错误', 'request': {'method': 'post', 'url': '/api/basic/manage/auth/login', 'data': {'account': 'heyu123', 'password': 'test123456', 'checkIp': False}, 'header': {'Content-Type': 'application/json'}}, 'extract': {'host': None}, 'validate': 'None'}" ]
+        }, {
+          "name" : "APP用户登录",
+          "uid" : "c7183dd005c3f5d7",
+          "parentUid" : "563f29a611f10e7b42c0d55cb1a97e4a",
+          "status" : "passed",
+          "time" : {
+            "start" : 1652946555516,
+            "stop" : 1652946555560,
+            "duration" : 44
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ "{'name': '获取app统一token接口', 'request': {'method': 'post', 'url': '/api/basic/app/auth/login', 'data': {'mobile': 15196450437, 'password': 'test1234'}, 'header': {'Content-Type': 'application/json'}}, 'validate': 'None'}" ]
+        }, {
+          "name" : "APP用户登录",
+          "uid" : "2b90a3fc960e3862",
+          "parentUid" : "563f29a611f10e7b42c0d55cb1a97e4a",
+          "status" : "passed",
+          "time" : {
+            "start" : 1652946555562,
+            "stop" : 1652946555587,
+            "duration" : 25
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ "{'name': '登录密码错误', 'request': {'method': 'post', 'url': '/api/basic/app/auth/login', 'data': {'mobile': 15196450437, 'password': 'test12345'}, 'header': {'Content-Type': 'application/json'}}, 'validate': 'None'}" ]
+        } ],
+        "uid" : "563f29a611f10e7b42c0d55cb1a97e4a"
+      } ],
+      "uid" : "f11806ebcbf8bd3c66f2ef17c424078f"
+    } ],
+    "uid" : "7d3977dcbf31acd3e26ecbe96342e45e"
+  } ]
+}

@@ -1,0 +1,19 @@
+- name: 添加车辆
+  request:
+    method: post
+    url: /api/management/car
+    data:
+        carNo: 川A18251D
+        carModel: 12m
+        carTypesEnum: BELL_BELL_CAR_12
+        stationStatusEnum: OPERATING
+        companyId: 273
+        motorcade: 100
+        line: 100
+        remark: ""
+        status: 运营中
+        carType: 12m海豚车
+    header:
+      Content-Type: application/json
+      jwt-token: '"manage-token":"(.*?)"'
+  validate: None

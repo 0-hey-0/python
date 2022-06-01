@@ -1,0 +1,128 @@
+{
+  "uid" : "b700aa233eeceb04",
+  "name" : "后台用户登录",
+  "fullName" : "testcase.test_Authorization.TestAuth#test_01_manageAuth",
+  "historyId" : "0ffd73cd4cb55537db43867331c36d1f",
+  "time" : {
+    "start" : 1652946555483,
+    "stop" : 1652946555513,
+    "duration" : 30
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "后台测试登录成功获取token",
+      "time" : {
+        "start" : 1652946555483,
+        "stop" : 1652946555513,
+        "duration" : 30
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "1.输入用户名：heyu123  2.输入密码：test123456  3.点击登录",
+        "time" : {
+          "start" : 1652946555483,
+          "stop" : 1652946555513,
+          "duration" : 30
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "fb6d5513cb765ee8",
+          "name" : "请求接口",
+          "source" : "fb6d5513cb765ee8.txt",
+          "type" : "text/plain",
+          "size" : 28
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "arg_manage",
+        "value" : "{'name': '登录密码错误', 'request': {'method': 'post', 'url': '/api/basic/manage/auth/login', 'data': {'account': 'heyu123', 'password': 'test123456', 'checkIp': False}, 'header': {'Content-Type': 'application/json'}}, 'extract': {'host': None}, 'validate': 'None'}"
+      } ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "epic",
+    "value" : "成都公交项目"
+  }, {
+    "name" : "feature",
+    "value" : "登录模块"
+  }, {
+    "name" : "story",
+    "value" : "后台用户名密码正确"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_Authorization"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestAuth"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-OGKLD0C"
+  }, {
+    "name" : "thread",
+    "value" : "10588-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_Authorization"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg_manage",
+    "value" : "{'name': '登录密码错误', 'request': {'method': 'post', 'url': '/api/basic/manage/auth/login', 'data': {'account': 'heyu123', 'password': 'test123456', 'checkIp': False}, 'header': {'Content-Type': 'application/json'}}, 'extract': {'host': None}, 'validate': 'None'}"
+  } ],
+  "links" : [ {
+    "name" : "后台接口地址：http://manager.c1.yunzhicloud.com",
+    "url" : "http://manager.c1.yunzhicloud.com",
+    "type" : "link"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b700aa233eeceb04.json",
+  "parameterValues" : [ "{'name': '登录密码错误', 'request': {'method': 'post', 'url': '/api/basic/manage/auth/login', 'data': {'account': 'heyu123', 'password': 'test123456', 'checkIp': False}, 'header': {'Content-Type': 'application/json'}}, 'extract': {'host': None}, 'validate': 'None'}" ]
+}

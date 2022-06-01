@@ -1,0 +1,17 @@
+.side-nav__brand {
+  background: url('yz-world.svg') no-repeat left center !important;
+  margin-left: 10px;
+  height: 55px;
+  background-size: contain !important;
+  padding-top:7px;
+}
+
+.side-nav__brand span{
+  display: none;
+}
+.side-nav__brand:after{
+  content: "云智天下";
+  margin-left: 20px;
+  font-family: kai;
+  font-size: 20px;
+}

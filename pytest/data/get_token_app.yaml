@@ -1,0 +1,21 @@
+- name: 获取app统一token接口
+  request:
+    method: post
+    url: /api/basic/app/auth/login
+    data:
+      mobile: 15196450437
+      password: test1234
+    header:
+      Content-Type: application/json
+  validate: None
+
+- name: 登录密码错误
+  request:
+    method: post
+    url: /api/basic/app/auth/login
+    data:
+      mobile: 15196450437
+      password: test12345
+    header:
+      Content-Type: application/json
+  validate: None

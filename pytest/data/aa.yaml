@@ -1,0 +1,4 @@
+name: yoyo
+age: 22
+tel: 15346782222
+token: !include ./get_token_app.yaml

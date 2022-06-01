@@ -1,0 +1,89 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "成都公交项目",
+    "children" : [ {
+      "name" : "登录模块",
+      "children" : [ {
+        "name" : "后台用户名密码正确",
+        "children" : [ {
+          "name" : "后台用户登录",
+          "uid" : "ed24b9833502cf4c",
+          "parentUid" : "e5db4686027fa4d148381853b52c7c7d",
+          "status" : "passed",
+          "time" : {
+            "start" : 1652946555304,
+            "stop" : 1652946555480,
+            "duration" : 176
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ "{'name': '获取后台统一token接口', 'request': {'method': 'post', 'url': '/api/basic/manage/auth/login', 'data': {'account': 'heyu123', 'password': 'test1234', 'checkIp': False}, 'header': {'Content-Type': 'application/json'}}, 'extract': {'host': None}, 'validate': 'None'}" ]
+        }, {
+          "name" : "后台用户登录",
+          "uid" : "b700aa233eeceb04",
+          "parentUid" : "e5db4686027fa4d148381853b52c7c7d",
+          "status" : "passed",
+          "time" : {
+            "start" : 1652946555483,
+            "stop" : 1652946555513,
+            "duration" : 30
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ "{'name': '登录密码错误', 'request': {'method': 'post', 'url': '/api/basic/manage/auth/login', 'data': {'account': 'heyu123', 'password': 'test123456', 'checkIp': False}, 'header': {'Content-Type': 'application/json'}}, 'extract': {'host': None}, 'validate': 'None'}" ]
+        } ],
+        "uid" : "e5db4686027fa4d148381853b52c7c7d"
+      }, {
+        "name" : "APP手机号密码正确",
+        "children" : [ {
+          "name" : "APP用户登录",
+          "uid" : "c7183dd005c3f5d7",
+          "parentUid" : "9b326c0b5db524794e02ca102e482e7b",
+          "status" : "passed",
+          "time" : {
+            "start" : 1652946555516,
+            "stop" : 1652946555560,
+            "duration" : 44
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ "{'name': '获取app统一token接口', 'request': {'method': 'post', 'url': '/api/basic/app/auth/login', 'data': {'mobile': 15196450437, 'password': 'test1234'}, 'header': {'Content-Type': 'application/json'}}, 'validate': 'None'}" ]
+        }, {
+          "name" : "APP用户登录",
+          "uid" : "2b90a3fc960e3862",
+          "parentUid" : "9b326c0b5db524794e02ca102e482e7b",
+          "status" : "passed",
+          "time" : {
+            "start" : 1652946555562,
+            "stop" : 1652946555587,
+            "duration" : 25
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ "{'name': '登录密码错误', 'request': {'method': 'post', 'url': '/api/basic/app/auth/login', 'data': {'mobile': 15196450437, 'password': 'test12345'}, 'header': {'Content-Type': 'application/json'}}, 'validate': 'None'}" ]
+        } ],
+        "uid" : "9b326c0b5db524794e02ca102e482e7b"
+      } ],
+      "uid" : "eebd634ff63c5c41404d76d440775414"
+    } ],
+    "uid" : "760cf1a1da9a7be431f9cd2eae62925c"
+  } ]
+}
