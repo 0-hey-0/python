@@ -1,0 +1,3 @@
+INFO     testcase.test_Authorization:test_Authorization.py:51 test_02_appAuth
+DEBUG    urllib3.connectionpool:connectionpool.py:204 Starting new HTTP connection (1): manager.c1.yunzhicloud.com:80
+DEBUG    urllib3.connectionpool:connectionpool.py:391 http://manager.c1.yunzhicloud.com:80 "POST /api/basic/app/auth/login HTTP/1.1" 200 None
