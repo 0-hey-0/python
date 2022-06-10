@@ -1,4 +1,6 @@
 import random
+import string
+
 
 def random_carNo(num,first='',second='',energy="tradition",cartype="small"):
     """
@@ -58,6 +60,25 @@ def random_carNo(num,first='',second='',energy="tradition",cartype="small"):
             # print(code)
     return carNo
 
-# if __name__ == '__main__':
-#     carNo=random_carNo(num=2)
-#     print(carNo)
+def random_generate(num=1,randomlength=11):
+    """
+    随机生成字符串，默认生成1个11位字符串
+    :param num: 生成个数
+    :param randomlength: 生成字符串长度
+    :return:
+    """
+    strlist = []
+    for i in range(num):
+        str = ''
+        for i in range(randomlength):
+            randstr=random.choice(string.ascii_letters+string.digits)
+            str=str+randstr
+        strlist.append(str)
+    return strlist
+
+if __name__ == '__main__':
+    # carNo=random_carNo(num=2)
+    # print(carNo)
+
+    rand_str=random_generate()
+    print(rand_str)
