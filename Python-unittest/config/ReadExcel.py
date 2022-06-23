@@ -27,8 +27,8 @@ class ReadExcel():
              print("表格是空数据!")
              return None
 
-BASE_DIR = os.path.dirname(os.path.dirname(__file__))
-SOURCE_FILE = os.path.join(BASE_DIR,"database","DemoAPITestCase.xlsx")
-a=ReadExcel(SOURCE_FILE)
-b=a.read_data()
-print(b)
+# BASE_DIR = os.path.dirname(os.path.dirname(__file__))
+# SOURCE_FILE = os.path.join(BASE_DIR,"database","DemoAPITestCase.xlsx")
+# a=ReadExcel(SOURCE_FILE)
+# b=a.read_data()
+# print(b)

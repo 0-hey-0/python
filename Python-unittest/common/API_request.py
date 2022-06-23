@@ -17,7 +17,7 @@ class Test_requset():
         Auth = API_Auth(name="url_c1")
         self.token = Auth.get_manage_Auth(username="heyu123", password="test1234")
         readCon = ReadConfig()
-        self.host = readCon.get_http(name="url_test")
+        self.host = readCon.get_http(name="url_c1")
         self.test = unittest.TestCase()
 
     def test_api(self, filename, module):
@@ -25,8 +25,9 @@ class Test_requset():
         self.readexcel = ReadExcel(fileName=SOURCE_FILE)
         excellist = self.readexcel.read_data()
         print(excellist)
-        for i in range(0, len(excellist) - 1):
-            excel_module = excellist[i].get("Module")
+        for i in range(0, len(excellist)):
+            excel_module = excellist[0]["Module"]
+            print(excel_module)
             if module == excel_module:
                 API = excellist[i].get("API")
                 print(API)
@@ -34,20 +35,21 @@ class Test_requset():
                 method = excellist[i].get("Method")
                 excel_header = excellist[i].get("header")
                 excel_header = json.loads(excel_header)
-                # print(excel_header)
+                print(excel_header)
                 data = excellist[i].get("data")
                 expect_res = excellist[i].get("Expected results")
         new_header = {"jwt-token": self.token}
-        header = dict(new_header, **excel_header)
+        header = dict(excel_header, **new_header)
         # print(header)
         url = self.host + API
+        print(url)
         res = request(url=url, data=data, method=method, header=header)
-        # print(res)
+        print(res)
         self.test.assertEqual(res.get("code"), code)
         self.test.assertEqual(res.get("success"), True)
 
         return res, expect_res
 
 a=Test_requset()
-b,c,d=a.test_api(module="出行服务",filename="DemoAPITestCase.xlsx")
+b,c=a.test_api(module="出行服务",filename="DemoAPITestCase.xlsx")
 print(c)

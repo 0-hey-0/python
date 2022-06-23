@@ -37,7 +37,7 @@ class API_Auth():
         res=request(url=self.url_manage,data=data,header=header,method="post")
         # print(res)
         token = res["data"]
-        print(token)
+        # print(token)
         return token
     def get_app_AUth(self,username,password):
         """

@@ -5,7 +5,7 @@ import random
 import json
 import requests
 
-from lib.random_carNo import random_carNo
+from lib.random_get import random_carNo
 from lib.request import request
 from lib.API_Authorization import API_Auth
 from config.readConfig import ReadConfig
